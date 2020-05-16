@@ -6,16 +6,16 @@ the original text, the revised text and the merged text, with any deleted text h
 highlighted in green. It uses the `lxml` built-in function `htmldiff`.
 
 ## Required inputs
-* The user should save:
-    * the original files in this folder: '//voyager/edit\_systems/XML\_comparison/1. Original files/'.
-    * the revised files to compare against the original files in this folder: '//voyager/edit\_systems/XML\_comparison/2. Revised files/'.
+* File path to the original set of xml files.
+* File path to the revised set of xml files.
+* File path to where the outputted xml files should be saved.
 
-    **NOTE:** The user should delete any files that might already be in these folders. The revised files do not need to have
-       the same file names as the original files though they do need be saved in the same order as the original files - for
-       that reason, it helps if both sets of files have the same file names (or at least if the start of file names are the same).
+**NOTE:** The user should delete any files that might already be in these folders. The revised files do not need to have
+ the same file names as the original files though they do need be saved in the same order as the original files - for
+ that reason, it helps if both sets of files have the same file names (or at least if the start of file names are the same).
 
 ## Outputs
-* For each xml file comparison, an html file is outputted here: '//voyager/edit\_systems/XML\_comparison/3. Output html files/'
+* For each xml file comparison, an html file is in the user-specified folder.
   * each html file shows the original text in the left-hand column, the revised text in the middle column, and the merged text
     in the right-hand column with any deleted text highlighted in red and any inserted text highlighted in green.
   * each html file will have the same name as the original file. If changes have occurred in the revised file, '\_comparison\_changes' 
@@ -28,4 +28,4 @@ highlighted in green. It uses the `lxml` built-in function `htmldiff`.
   * There are some formatting issues with the merged text column of the outputted html file: line breaks disappear in
     paragraphs where there have been lots of changes so the text just appears in one giant block. Please do let me know
     if there's a way of correcting this.
-  * I'm sure writing ....
+  * This is my first foray into `lxml` so I'm sure there's a much neater way of doing this.
