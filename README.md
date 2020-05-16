@@ -10,9 +10,8 @@ highlighted in green. It uses the `lxml` built-in function `htmldiff`.
 * File path to the revised set of xml files.
 * File path to where the outputted xml files should be saved.
 
-**NOTE:** The user should delete any files that might already be in these folders. The revised files do not need to have
- the same file names as the original files though they do need be saved in the same order as the original files - for
- that reason, it helps if both sets of files have the same file names (or at least if the start of file names are the same).
+**NOTE:** The revised files do not need to have the same file names as the original files though they do need be saved in 
+the same order as the original files - for that reason, it helps if both sets of files have the same file names (or at least if the start of file names are the same).
 
 ## Outputs
 * For each xml file comparison, an html file is in the user-specified folder.
