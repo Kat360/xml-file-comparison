@@ -20,7 +20,7 @@ the same order as the original files.
   * each html file will have the same name as the original file. If changes have occurred in the revised file, '\_comparison\_changes' 
     will be appended to the file name. If no changes have occurred, '\_comparison\_no\_changes' will be appended.'
 
-**NOTE:** Each outputted html file only displays the text from the xml file and highlights specific changes to the text. The xml tags and any variation in the tags will not be displayed.
+**NOTE:** Each outputted html file will only display the text from the xml file and highlight specific changes to the text. The xml tags and any variation in the tags will not be displayed.
 
 ## Issues
   * There are some formatting issues with the merged text column of the outputted html file: line breaks disappear in
