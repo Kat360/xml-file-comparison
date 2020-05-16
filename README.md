@@ -1,4 +1,4 @@
-# XML file comparison
+# Comparing xml files
 
 ## Summary
 This script compares two sets of xml files and generates html files (1 html file for each xml file comparison) showing
@@ -27,4 +27,4 @@ the same order as the original files - for that reason, it helps if both sets of
   * There are some formatting issues with the merged text column of the outputted html file: line breaks disappear in
     paragraphs where there have been lots of changes so the text just appears in one giant block. Please do let me know
     if there's a way of correcting this.
-  * This is my first foray into `lxml` so I'm sure there's a much neater way of doing this.
+  * This is my first foray into `lxml` so I'm sure there's a much neater way of doing this. E.g. 
