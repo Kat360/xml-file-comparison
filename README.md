@@ -28,3 +28,4 @@ highlighted in green. It uses the `lxml` built-in function `htmldiff`.
   * There are some formatting issues with the merged text column of the outputted html file: line breaks disappear in
     paragraphs where there have been lots of changes so the text just appears in one giant block. Please do let me know
     if there's a way of correcting this.
+  * I'm sure writing ....
