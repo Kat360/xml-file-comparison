@@ -24,6 +24,4 @@ the same order as the original files.
 
 ## Issues
   * There are some formatting issues with the merged text column of the outputted html file: line breaks disappear in
-    paragraphs where there have been lots of changes so the text just appears in one giant block. Please do let me know
-    if there's a way of correcting this.
-  * This is my first foray into `lxml` so I'm sure there's a much neater way of doing this. E.g. 
+    paragraphs where there have been lots of changes so the text just appears in one giant block.
